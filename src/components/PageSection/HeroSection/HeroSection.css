@@ -1,0 +1,57 @@
+section.hero-section {
+  background-image: url("../../../assets/images/Frame74.png");
+  background-repeat: no-repeat;
+  width: 100vw;
+  min-height: 600px;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+section.hero-section2 {
+  background-image: url("../../../assets/images/Frame73.png");
+  background-repeat: no-repeat;
+  width: 100vw;
+  min-height: 600px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  filter: brightness(0.9);
+}
+section.hero-section3 {
+  background-image: url("../../../assets/images/Frame76.png");
+  background-repeat: no-repeat;
+  width: 100vw;
+  min-height: 600px;
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed;
+  filter: brightness(0.9);
+}
+
+@media only screen and (max-width: 810px) {
+  section.hero-section1 {
+    background-image: url("../../../assets/images/slider1.png") !important;
+    /* min-height: 500px; */
+    filter: brightness(1);
+    height: 100%;
+    background-position: center center;
+  }
+  section.hero-section2 {
+    background-image: url("../../../assets/images/Group37.png") !important;
+    /* min-height: 500px; */
+    filter: brightness(1);
+    height: 100%;
+    background-position: center center;
+  }
+  section.hero-section3 {
+    background-image: url("../../../assets/images/Group38.png") !important;
+    /* min-height: 500px; */
+    filter: brightness(1);
+    height: 100%;
+    background-position: center center;
+  }
+  section.hero-section2 p,
+  section.hero-section3 p {
+    color: #ffffff !important;
+  }
+}

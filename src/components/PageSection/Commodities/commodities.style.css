@@ -1,0 +1,24 @@
+img.maize,
+img.cashew,
+img.kernel-oil,
+img.soya-beans,
+img.kernel-nut {
+  transition: all ease 200ms;
+}
+img.maize:hover,
+img.cashew:hover,
+img.kernel-oil:hover,
+img.soya-beans:hover,
+img.kernel-nut:hover {
+  scale: 1.05 !important;
+  transition: all ease 200ms;
+}
+/* .rounded-circle.mx-auto.d-flex.align-items-center.justify-content-center {
+  overflow: hidden;
+} */
+@media only screen and (max-width: 768px) {
+  section.our-commodities .img-container {
+    width: 100%;
+    /* height: 100%; */
+  }
+}

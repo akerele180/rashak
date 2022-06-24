@@ -1,0 +1,8 @@
+.main {
+  font-family: "Montserrat", sans-serif !important;
+  overflow-x: hidden;
+}
+input:focus,
+input:active {
+  border: none !important;
+}
