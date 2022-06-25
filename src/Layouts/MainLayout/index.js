@@ -8,7 +8,9 @@ const Layout = () => {
   return (
     <div>
       <MobNavBar />
-      {<Outlet />}
+      <div className="outlet" style={{ minHeight: "100vh" }}>
+        {<Outlet />}
+      </div>
       <ContactUs />
     </div>
   );

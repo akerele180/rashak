@@ -17,36 +17,34 @@ const AboutUs = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <h2 className="container fw-bold fs-1">About Us</h2>
+      <h2 className="container fw-bold fs-1 mt-4">About Us</h2>
       <div
-        className="about-us row align-items-center mx-auto container py-5 gap-4"
+        className="about-us row align-items-center mx-auto container py-2 gap-5"
         style={{ color: "#00000095" }}
       >
-        <div className="col-12 col-md-7   ">
+        <div className="col-12 col-md-7">
           <h2 className="fw-bold fs-4 ">Who we are</h2>
-          <p>
+          <p className="text-justify">
             We are creating shared prosperity through people-led and innovative
             agricultural-sector focused approaches.
           </p>{" "}
-          <p>
+          <p className="text-justify">
             We bring farmers closer to bigger opportunities where efforts are
             rewarded and prosperity sustained for greater good.
           </p>
-          <p>
+          <p className="text-justify">
             We work with farmers to meet the growing demand for local and global
             agric-commodities for large scale production of consumer products.
           </p>
-          <p>
+          <p className="text-justify">
             Led by women, supporting women, youths and smallholder farmers at
             large to rid the society of poverty, hunger and unemployment.
           </p>
-          <p>
-            <strong>
-              {" "}
-              We are working to alleviate poverty, empower women, improve food
-              security, and more importantly, enable shared prosperity through
-              agricultural innovation and sustained social impact
-            </strong>
+          <p className="text-justify">
+            {" "}
+            We are working to alleviate poverty, empower women, improve food
+            security, and more importantly, enable shared prosperity through
+            agricultural innovation and sustained social impact.
           </p>
         </div>
         <div className="col-12 col-md text-end" id="aboutusImage">
@@ -55,7 +53,6 @@ const AboutUs = () => {
           {/* </div> */}
         </div>
       </div>
-
       {/* visioin-and-mission */}
       <div
         className="about-us row align-items-start mx-auto container py-5 gap-4"
@@ -65,12 +62,14 @@ const AboutUs = () => {
           <h2 className="fw-bold fs-4 ">Our Vision</h2>
           <p>
             Enabling shared prosperity through Agriculture, for Africa to be
-            economically free
+            economically free.
           </p>{" "}
           <h2 className="fw-bold fs-4 ">Our Mission</h2>
-          <p>
-            To connect African farmers and their produce to a global market
-            using the most innovative methods possible
+          <p className="text-justify">
+            To become a leading agribusiness company in Nigeria leveraging
+            technology, innovation, highly skilled and dedicated workforce, and
+            best global business practices to deliver value to our esteemed
+            customers.
           </p>{" "}
         </div>
         <div className="col-12 col-md text-end order-first" id="aboutusImage">
